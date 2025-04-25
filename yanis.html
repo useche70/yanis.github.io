@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Yanisleidy Diaz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 2px;
+            background-color: #3b82f6;
+            margin-top: 4px;
+        }
+        .entry {
+            border-left: 3px solid #3b82f6;
+            padding-left: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .entry-date {
+            font-weight: 500;
+            color: #6b7280;
+        }
+        .entry-title {
+            font-weight: 600;
+            font-size: 1.125rem;
+            color: #1f2937;
+        }
+        .entry-location {
+            font-style: italic;
+            color: #4b5563;
+        }
+        .entry-details {
+            list-style: disc;
+            margin-left: 1.5rem;
+            color: #374151;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-6 lg:p-12 bg-white shadow-lg rounded-lg max-w-4xl my-10">
+
+        <div class="flex flex-col md:flex-row items-center md:items-start mb-10">
+            <div class="w-32 h-32 md:w-40 md:h-40 mb-6 md:mb-0 md:mr-8 flex-shrink-0">
+                 <img src="foto001.JPG" alt="Foto de Perfil de Yanisleidy Diaz"
+                      class="rounded-full object-cover w-full h-full border-4 border-blue-500 shadow-md"
+                      onerror="this.onerror=null; this.src='https://placehold.co/160x160/e2e8f0/64748b?text=Imagen+no+disponible';">
+            </div>
+
+            <div class="text-center md:text-left">
+                <h1 class="text-4xl lg:text-5xl font-bold text-blue-600 mb-2">Yanisleidy Diaz</h1>
+                <div class="mt-4 space-y-2 text-gray-600">
+                    <p><i class="fas fa-map-marker-alt mr-2 text-blue-500"></i>Toledo</p>
+                    <p><i class="fas fa-phone mr-2 text-blue-500"></i>644 74 85 45</p>
+                    <p><i class="fas fa-envelope mr-2 text-blue-500"></i>yd58304@gmail.com</p>
+                </div>
+                
+                <!-- Botón de descarga -->
+                <div class="mt-6">
+                    <a href="cv-yanisleidy-diaz.pdf" download
+                       class="bg-blue-600 hover:bg-blue-700 text-white font-semibold 
+                              py-3 px-6 rounded-lg shadow-md transition duration-300 
+                              flex items-center space-x-2">
+                        <i class="fas fa-download"></i>
+                        <span>Descargar CV en PDF</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+            <div class="md:col-span-1">
+                <h2 class="text-2xl font-semibold mb-4 section-title text-blue-600">HABILIDADES</h2>
+                <ul class="space-y-2 list-none p-0">
+                    <li class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm inline-block mr-2 mb-2">Trabajo en equipo</li>
+                    <li class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm inline-block mr-2 mb-2">Capacidad de organización</li>
+                    <li class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm inline-block mr-2 mb-2">Habilidades de comunicación</li>
+                    <li class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm inline-block mr-2 mb-2">Resolución de problemas</li>
+                    <li class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm inline-block mr-2 mb-2">Conocimientos básicos de alemán - A1</li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-2">
+                <section class="mb-8">
+                    <h2 class="text-2xl font-semibold mb-6 section-title text-blue-600">EXPERIENCIA LABORAL</h2>
+
+                    <div class="entry">
+                        <p class="entry-date">22/01/2025 – 30/04/2025</p>
+                        <h3 class="entry-title">Acompañante de Personas Mayores (Semi-interna)</h3>
+                        <p class="entry-location">Sevilla, España</p>
+                        <ul class="entry-details mt-2">
+                            <li>Cuidado y acompañamiento personalizado</li>
+                            <li>Asistencia en actividades diarias y medicación</li>
+                            <li>Apoyo en movilidad y actividades recreativas</li>
+                            <li>Coordinación con servicios médicos y familiares</li>
+                            <li>Mantenimiento de entorno seguro y confortable</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <p class="entry-date">04/2023 – 09/2023</p>
+                        <h3 class="entry-title">Auxiliar Polivalente</h3>
+                        <p class="entry-location">Cafetería der Anker, Asylgruppe 90513, Zirndorf</p>
+                        <ul class="entry-details mt-2">
+                            <li>Atención al cliente</li>
+                            <li>Preparación de bebidas</li>
+                            <li>Preparación y servicio de comidas</li>
+                            <li>Limpieza de mesas y sala</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <p class="entry-date">03/2012 – 11/2021</p>
+                        <h3 class="entry-title">Contable Bancaria</h3>
+                        <p class="entry-location">Banco Popular de Ahorro - Cuba</p>
+                        <ul class="entry-details mt-2">
+                            <li>Realización de la contabilidad</li>
+                            <li>Revisión de extractos bancarios</li>
+                            <li>Registro de transacciones financieras</li>
+                            <li>Elaboración de cierres mensuales</li>
+                            <li>Cumplimiento de normativas fiscales</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <p class="entry-date">08/2000 – 01/2012</p>
+                        <h3 class="entry-title">Técnico de Recursos Humanos</h3>
+                        <p class="entry-location">José Martí Cienfuegos - Cuba</p>
+                         <ul class="entry-details mt-2">
+                            <li>Selección de personal</li>
+                            <li>Desarrollo de personal</li>
+                            <li>Administración de personal</li>
+                            <li>Gestión de conflictos</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-semibold mb-6 section-title text-blue-600">EDUCACIÓN</h2>
+
+                     <div class="entry">
+                        <p class="entry-date">09/2009 – 12/2014</p>
+                        <h3 class="entry-title">Licenciatura en Contabilidad y Finanzas</h3>
+                        <p class="entry-location">Universidad José A. Mella - Cuba</p>
+                    </div>
+
+                    <div class="entry">
+                        <p class="entry-date">09/2006 – 07/2009</p>
+                        <h3 class="entry-title">Bachillerato</h3>
+                        <p class="entry-location">Trinidad - Cuba</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
